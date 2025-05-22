@@ -52,3 +52,8 @@ cat file.txt
 sleep 5
 
 rm -rf file.txt
+
+#Check the file line
+head -30 basic_command.sh | tail -5 
+
+#o/p-- five line from the 25 in the basic_command 
